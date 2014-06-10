@@ -3,22 +3,31 @@ $(document).ready(function() {
 	for (var x = 1; x <= 100; x++) {
 	if (x % 3 === 0) {
 		if (x % 5 === 0) {
-			document.write("fizz buzz<br>");
-		}
+			var newContent = document.createElement('div'); 
+			newContent.innerHTML = "fizz buzz<br>";
+			document.body.appendChild(newContent);
 
+		}
 			else {
-				document.write('fizz<br>');
+			var newContent2 = document.createElement('div'); 
+			newContent2.innerHTML = "fizz<br>";
+			document.body.appendChild(newContent2);
 			}
 		
 		}
 
 	if (x % 5 === 0 && x % 3 !== 0) {
-		document.write('buzz<br>');
+			var newContent3 = document.createElement('div'); 
+			newContent3.innerHTML = "buzz<br>";
+			document.body.appendChild(newContent3);
 	}
 
 	if (x % 5 !== 0 && x % 3 !== 0) {
-	document.write(x+ "<br>");
+			var newContent4 = document.createElement('div'); 
+			newContent4.innerHTML = x+"<br>";
+			document.body.appendChild(newContent4);
 	}
+	
 
 	}
 
