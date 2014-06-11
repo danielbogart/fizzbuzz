@@ -1,0 +1,26 @@
+.fizztitle {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 1em;
+
+}
+
+.fizzbody {
+	font-family: 'Ubuntu', sans-serif;	
+	text-align: center;
+}
+
+#max {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#submit {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+#container {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
